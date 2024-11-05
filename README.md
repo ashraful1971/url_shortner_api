@@ -17,6 +17,10 @@ This project is a URL shortner API built using Laravel 11
 * PHP
 * Composer
 
+## Documentation
+* /docs/v1
+* /docs/v2
+
 
 ## Installation (File)
 1. Clone the repository

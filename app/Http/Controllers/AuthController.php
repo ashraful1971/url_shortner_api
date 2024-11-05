@@ -18,6 +18,7 @@ class AuthController extends Controller
      * @param LoginRequest $request
      * @return JsonResponse
      * @throws ValidationException
+     * @unauthenticated
      */
     public function login(LoginRequest $request): JsonResponse
     {
@@ -44,6 +45,7 @@ class AuthController extends Controller
      *
      * @param RegisterRequest $request
      * @return JsonResponse
+     * @unauthenticated
      */
     public function register(RegisterRequest $request): JsonResponse
     {
